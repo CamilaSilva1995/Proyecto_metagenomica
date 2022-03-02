@@ -57,7 +57,7 @@ DFfusion = unite(allOutputs)
 
 DFfusion['measure'] = np.where((DFfusion["tax_ID_kraken"] == DFfusion["tax_ID_kaiju"]) , 1, np.nan)
 
-DFfusion.to_csv("clasificador.tsv", sep="\t", index=False, header=True)
+DFfusion.to_csv("/data/data_ignore/clasificador.tsv", sep="\t", index=False, header=True)
 
         
 #parser = argparse.ArgumentParser()
